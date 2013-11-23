@@ -3,10 +3,14 @@
 frontend.Routers = frontend.Routers || {};
 
 (function () {
-    'use strict';
+  frontend.Routers.AppRouter = Backbone.Router.extend({
+    routes: {
+      '': 'home'
+    },
 
-    frontend.Routers.AppRouter = Backbone.Router.extend({
-
-    });
+    home: function(){
+      console.log('home');
+    }
+  });
 
 })();
