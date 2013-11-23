@@ -15,6 +15,14 @@ window.frontend = {
       el: $('.teachlab-main')
     });
     appView.render();
+
+    var appRouter = new this.Routers.AppRouter();
+
+    Backbone.history.start({
+      pushState: false,
+      root: '/',
+      silent: true
+    });
   }
 };
 
