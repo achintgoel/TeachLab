@@ -3,10 +3,8 @@
 frontend.Models = frontend.Models || {};
 
 (function () {
-    'use strict';
+  frontend.Models.AppModel = Backbone.Model.extend({
 
-    frontend.Models.AppModel = Backbone.Model.extend({
-
-    });
+  });
 
 })();

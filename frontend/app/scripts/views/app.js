@@ -3,12 +3,16 @@
 frontend.Views = frontend.Views || {};
 
 (function () {
-    'use strict';
+  frontend.Views.AppView = Backbone.View.extend({
 
-    frontend.Views.AppView = Backbone.View.extend({
+    template: JST['app/scripts/templates/app.hbs'],
 
-        template: JST['app/scripts/templates/app.hbs']
+    render: function(){
+      this.$el.html(this.template());
+      console.log('render');
+      return this;
+    }
 
-    });
+  });
 
 })();
