@@ -25,6 +25,7 @@ def register(request):
             user.save()  # new
             un = postdata.get('username','')
             pw = postdata.get('password1','')
+            print(pw)
             new_user = authenticate(username=un, password=pw)
             if new_user and new_user.is_active:
                 login(request, new_user)
@@ -37,6 +38,5 @@ def register(request):
     return render_to_response('registration/create_user.html', locals(), context_instance=RequestContext(request))
 
 
-@login_required
 def profile(request):
     return render_to_response('accounts/real_profile.html', locals())
