@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<!-- saved from url=(0024)http://localhost:9000/?# -->
+<html class=" js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths" style=""><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    {% load staticfiles %}
+    <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>frontend</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="{% static "repository/bootstrap/css/bootstrap.min.css" %}">
+        <link rel="stylesheet" href="{% static "repository/teachlab.css" %}">
+    </head>
+    <body>
+
+        <div class="navbar navbar-inverse navbar-fixed-top">
+    					<a class="navbar-brand" href="#"><img src="{% static "repository/teachlab_logo.png" %}" width="100" height="20"></a>
+    					<ul class="nav navbar-nav">
+     						 <li class="active"><a href="{% url 'accounts:profile'%}">Home</a></li>
+                             <li><a href="#">Help</a></li>
+    					</ul>
+    					<ul class="nav navbar-nav navbar-right">
+                            <li>
+                                <form class="navbar-form navbar-right">
+                                    <div class="form-group">
+                                      <input type="text" placeholder="Enter a Term" class="form-control">
+                                    </div>
+
+                                    <a href="{% url 'repository:search_results'%}" class="btn btn-primary" role="button">Search</a>
+                                 </form>
+                            </li>
+    						 <li class="dropdown">
+    						 	<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+									Anne Kingsley <b class="caret"></b>
+    						 	</a>
+    						 	<ul class="dropdown-menu">
+						          <li><a href="#">Logout</a></li>
+						        </ul>
+    						 </li>
+    					</ul>
+				</div>
+        <div class="teachlab-main"><div class="container">
+
+  <div class="row">
+    <div class="col-md-8">
+
+      <!-- the actual blog post: title/author/date/content -->
+      <h1>English II Writing</h1>
+      <p class="lead">by <a href="./profile_files/profile.html">Anne</a></p>
+      <hr>
+      <p><span class="glyphicon glyphicon-time"></span> Posted on August 24, 2013 at 9:00 PM</p>
+      <hr>
+      <img src="{% static "repository/advanced-writing.jpg" %}" class="img-responsive img-rounded">
+      <hr>
+      <ul class="nav nav-tabs">
+        <li class="active"><a href="./profile_files/profile.html"><strong>Syllabus</strong></a></li>
+        <li><a href="./profile_files/profile.html"><strong>Curriculum</strong></a></li>
+        <li><a href="./profile_files/profile.html"><strong>Activities</strong></a></li>
+      </ul>
+        <p></p>
+        <button type="button" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-upload"></span> Upload</button>
+              <button type="button" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-edit"></span> Edit</button>
+        <p></p>
+      <p>In the second course of the CTW sequence, we will move from examining how discourse functions in our own identity formations to consider discourse as it is formed around larger cultural, political, and geographical issues.</p>
+
+      <p>Throughout these reading and writing assignments, we will consider how discourse both addresses controversy and conflict and also becomes a possibility for change. We will study how interventions in discourse can make us view and understand the world around us differently. We will begin by looking at the “borderland” discourse of Gloria Anzaldua.  From here, we will move to an analysis of the visual and textual formation of Palestinian identity in Edward Said’s After the Last Sky. Then, we will look at the discourse of social media and social change in the advent of the Arab Spring.  As our last writing assignment, we will return back to our own discourse communities to map out a language project around one of the conflicts or controversies that arises in our community.</p>
+
+      <p>Throughout the quarter, we will continue our examination and study of elements of rhetorical theory—in particular, the discussion of contemporary rhetoric—to employ a terminology, strategy, and means of viewing the contemporary art of discourse.</p>
+
+
+      <hr>
+
+      <!-- the comment box -->
+      <div class="well">
+        <h4>Leave a Comment:</h4>
+        <form role="form">
+          <div class="form-group">
+            <textarea class="form-control" rows="3"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+
+      <hr>
+
+      <!-- the comments -->
+      <div class="media">
+        <a class="pull-left" href="./profile_files/profile.html">
+          <img class="media-object img-rounded" src="{% static "repository/64x64" %}">
+        </a>
+        <div class="media-body">
+          <h4 class="media-heading">Steve <small>9:41 PM on August 24, 2013</small></h4>
+          <p>This has to be the best syllabus I have ever read. It simply makes sense to me.</p>
+        </div>
+      </div>
+
+      <!-- the comments -->
+      <div class="media">
+        <a class="pull-left" href="./profile_files/profile.html">
+          <img class="media-object img-rounded" src="{% static "repository/64x64" %}">
+        </a>
+        <div class="media-body">
+          <h4 class="media-heading">Mike <small>9:47 PM on August 24, 2013</small></h4>
+          <p>I am the dean from another state university and I love what you have. Can we talk?</p>
+        </div>
+      </div>
+
+      <h4> <small></small></h4>
+
+
+    </div>
+
+    <div class="col-md-4">
+      <div class="well">
+        <h4>Teacher</h4>
+          <div class="row">
+            <div class="col-md-6">
+              <img class="img-responsive img-circle" src="{% static "repository/27665bc.jpg" %}">
+            </div>
+            <div class="col-md-6">
+              <ul class="list-unstyled">
+                <li><span class="glyphicon glyphicon-user"></span> Anne</li>
+                <li><span class="glyphicon glyphicon-map-marker"></span> San Francisco</li>
+              </ul>
+            </div>
+          </div>
+      </div><!-- /well -->
+
+      <div class="well">
+        <h4>Search</h4>
+        <div class="input-group">
+          <input type="text" class="form-control">
+          <span class="input-group-btn">
+            <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"></span></button>
+          </span>
+        </div><!-- /input-group -->
+      </div><!-- /well -->
+
+    </div>
+  </div>
+
+  <hr>
+
+  <footer>
+    <div class="row">
+      <div class="col-md-12">
+        <p>Copyright © TeachLab 2013</p>
+      </div>
+    </div>
+  </footer>
+
+</div><!-- /.container --></div>
+<script type="text/javascript" src="{% static "repository/bootstrap/js/bootstrap.min.js" %}"></script>
+</body>
+</html>

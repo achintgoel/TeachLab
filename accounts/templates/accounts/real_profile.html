@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://localhost:9000/ -->
+<html class=" js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths" style=""><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    {% load staticfiles %}
+    <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>frontend</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="{% static "repository/bootstrap/css/bootstrap.min.css" %}">
+        <link rel="stylesheet" href="{% static "repository/teachlab.css" %}">
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script type="text/javascript" src="{% static "repository/bootstrap/js/bootstrap.min.js" %}"></script>
+
+        <script type="text/javascript" src="{% static "repository/killercarousel.js" %}"></script>
+        <script type="text/javascript" src="{% static "repository/repository.js" %}"></script>
+        <link href="{% static "repository/killercarousel.css" %}" type="text/css" rel="stylesheet" />
+
+        <style type = "text/css">
+
+            /* CSS for images inside item wrapper */
+            .kc-item img {
+                position:absolute;
+                pointer-events: none;   /* Make images non-selectable. */
+                width:100%;             /* Make images expand to wrapper size (used in 2d modes). */
+            }
+
+        </style>
+
+    </head>
+    <body>
+        <div class="navbar navbar-inverse navbar-fixed-top">
+    					<a class="navbar-brand" href="#"><img src="{% static "repository/teachlab_logo.png" %}" width="100" height="20"></a>
+    					<ul class="nav navbar-nav">
+     						 <li class="active"><a href="{% url 'accounts:profile'%}">Home</a></li>
+                             <li><a href="#">Help</a></li>
+    					</ul>
+    					<ul class="nav navbar-nav navbar-right">
+                            <li>
+                                <form class="navbar-form navbar-right">
+                                    <div class="form-group">
+                                      <input type="text" placeholder="Enter a Term" class="form-control">
+                                    </div>
+                                    <a href="{% url 'repository:search_results'%}" class="btn btn-primary" role="button">Search</a>
+                                 </form>
+                            </li>
+    						 <li class="dropdown">
+    						 	<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+									Anne Kingsley <b class="caret"></b>
+    						 	</a>
+    						 	<ul class="dropdown-menu">
+						          <li><a href="#">Logout</a></li>
+						        </ul>
+    						 </li>
+    					</ul>
+		</div>
+        <div class="teachlab-main"><div class="container">
+
+  <div class="row">
+    <div class="col-md-8">
+
+      <!-- the comments -->
+      <div class="media">
+        <a class="pull-left" href="http://localhost:9000/#">
+          <img class="media-object img-rounded" src="{% static "repository/27665bc.jpg" %}" width="140" height="140">
+        </a>
+        <div class="media-body">
+          <h3 class="media-heading"><strong>Anne Kingsley</strong></h3>
+          <h5>Adjunct Professor of English At Diablo Valley College</h5>
+          <div class="row">
+              <div class="col-md-2 text-muted"><small>Research</small></div>
+              <div class="col-md-8"><small><strong>19th Century American Literature, Women's Studies, Composition</strong></small></div>
+          </div>
+          <br>
+          <p class="text-muted">San Francisco, CA</p>
+
+        </div>
+      </div>
+
+      <hr>
+
+          <h4 class="media-heading"><span class="glyphicon glyphicon-info-sign"></span> <strong>About</strong></h4>
+          <p>Involve both student and instructor in interactive conversations </p>
+      <hr>
+
+      <h4 class="media-heading"><span class="glyphicon glyphicon-list-alt"></span> <strong>Featured Courses</strong></h4>
+      <div class="media">
+          <a class="pull-left" href="#">
+            <img class="media-object" width="100" height="100" src="{% static "repository/Reading_Press.png" %}" alt="...">
+          </a>
+          <div class="media-body">
+            <h5 class="text-info">ENGL 116: College Reading Development “Reading New Technologies</h5>
+          </div>
+       </div>
+
+       <div class="media">
+          <a class="pull-left" href="#">
+            <img class="media-object" width="100" height="100" src="{% static "repository/emily_dickinson.jpg" %}" alt="...">
+          </a>
+          <div class="media-body">
+            <h5 class="text-info">LTEL 170: "Single Author Study of Emily Dickinson"</h5>
+          </div>
+       </div>
+
+       <div class="media">
+          <a class="pull-left" href="#">
+            <img class="media-object" width="100" height="100" src="{% static "repository/World_literature_image.png" %}" alt="...">
+          </a>
+          <div class="media-body">
+            <h5 class="text-info">World Literature: “Mapping Power in Context”</h5>
+          </div>
+       </div>
+       <br>
+       <a href="{% url 'repository:my_courses'%}" class="btn btn-primary" role="button">See All Courses</a>
+       <a href="{% url 'repository:my_courses'%}" class="btn btn-success" role="button">See All Research/Projects</a>
+
+
+        <br>
+
+
+
+
+    </div>
+
+
+    <div class="col-md-4">
+      <div class="well">
+        <h4>My Interests</h4>
+        <p>
+          <span class="label label-default">Emily Dickinson</span>
+          <span class="label label-default">Boewulf</span>
+          <span class="label label-default">Digital Humanities</span>
+          <span class="label label-default">Composition</span>
+        </p>
+      </div><!-- /well -->
+      <div class="well">
+        <h4>Previous </h4>
+        <ul>
+          <li>Diabolo Valley College</li>
+          <li>UC - Santa Cruz</li>
+          <li>City College of San Francisco</li>
+        </ul>
+      </div><!-- /well -->
+      <div class="well">
+        <h4>Education</h4>
+        <ul>
+          <li>Ph.D. Literature, UC - Berkeley</li>
+          <li>M.A. English, SUNY - Buffalo</li>
+          <li>B.A. English, SUNY - Buffalo</li>
+        </ul>
+      </div><!-- /well -->
+      <div class="well">
+        <h4>Professional Affiliations</h4>
+        <ul>
+          <li>HASTAC</li>
+          <li>MLA</li>
+          <li>Emily Dickinson International Society</li>
+          <li>English Graduate Student Association</li>
+        </ul>
+      </div><!-- /well -->
+
+
+    </div>
+  </div>
+
+
+  <hr>
+
+  <footer>
+    <div class="row">
+      <div class="col-md-12">
+        <p>Copyright © TeachLab 2013</p>
+      </div>
+    </div>
+  </footer>
+
+</div><!-- /.container --></div>
+
+
+
+
+
+
+</body></html>

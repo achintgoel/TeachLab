@@ -7,6 +7,8 @@ urlpatterns = patterns('',
     # Examples:
     # url(r'^$', 'teachlab.views.home', name='home'),
     # url(r'^blog/', include('blog.urls')),
-
+    url(r'', include('social_auth.urls')),
+    url(r'^accounts/', include('accounts.urls', namespace="accounts")),
+    url(r'^repository/', include('repository.urls', namespace="repository")),
     url(r'^admin/', include(admin.site.urls)),
 )

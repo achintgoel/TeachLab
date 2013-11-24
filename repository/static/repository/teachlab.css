@@ -1,0 +1,22 @@
+body {
+		padding-top: 70px;
+}
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 950px;
+  }
+}
+
+.carousel-image {
+    margin-left: 146px;
+    margin-right: 146px;
+}
+
+#carousel_left {
+	padding-top: 100px;
+}
+
+#carousel_right {
+	padding-top: 100px;
+}
