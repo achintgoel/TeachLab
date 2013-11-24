@@ -2,63 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b963b32e-5d54-430c-986f-ccc31c964541" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/repository/static/repository/27665bc.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/repository/static/repository/64x64" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/repository/static/repository/achintpf.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/repository/static/repository/advanced-writing.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/repository/static/repository/background.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/repository/static/repository/dineshpf.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/repository/static/repository/bootstrap/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/repository/static/repository/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/repository/static/repository/bootstrap/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/repository/static/repository/bootstrap/img/glyphicons-halflings-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/repository/static/repository/bootstrap/img/glyphicons-halflings.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/repository/static/repository/images/image1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/repository/static/repository/images/image10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/repository/static/repository/images/image11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/repository/static/repository/images/image12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/repository/static/repository/images/image13.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/repository/static/repository/images/image14.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/repository/static/repository/images/image15.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/repository/static/repository/images/image16.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/repository/static/repository/images/image17.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/repository/static/repository/images/image18.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/repository/static/repository/images/image19.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/repository/static/repository/images/image2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/repository/static/repository/images/image20.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/repository/static/repository/images/image21.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/repository/static/repository/images/image22.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/repository/static/repository/images/image23.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/repository/static/repository/images/image3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/repository/static/repository/images/image4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/repository/static/repository/images/image5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/repository/static/repository/images/image6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/repository/static/repository/images/image7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/repository/static/repository/images/image8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/repository/static/repository/images/image9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/repository/static/repository/kabirpf.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/repository/static/repository/saved_resource(1)" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/repository/static/repository/saved_resource(2)" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/repository/static/repository/saved_resource" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/repository/static/repository/shadow-bottom.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/repository/static/repository/shadow-left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/repository/static/repository/shadow-right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/repository/static/repository/vinpf.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/repository/static/repository/bootstrap/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/repository/static/repository/bootstrap/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/repository/static/repository/bootstrap/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/repository/static/repository/bootstrap/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/repository/static/repository/bootstrap/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/repository/templates/repository/course_profile.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accounts/templates/registration/create_user.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/repository/static/repository/bootstrap/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/repository/static/repository/killercarousel.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/repository/static/repository/killercarousel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accounts/templates/registration/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/repository/templates/repository/search_page_draft.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accounts/templates/accounts/settings.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/teachlab/settings.py" afterPath="$PROJECT_DIR$/teachlab/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/teachlab/urls.py" afterPath="$PROJECT_DIR$/teachlab/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/teachlab/wsgi.py" afterPath="$PROJECT_DIR$/teachlab/wsgi.py" />
     </list>
@@ -112,19 +55,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dj_database_url.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="dj_database_url.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/lib/python2.7/site-packages/dj_database_url.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1350">
+            <state line="30" column="0" selection-start="738" selection-end="738" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1350">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wsgi.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="wsgi.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/teachlab/wsgi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="45" selection-start="1008" selection-end="1008" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
+            <state line="22" column="57" selection-start="1020" selection-end="1020" vertical-scroll-proportion="0.375" vertical-offset="168" max-vertical-offset="600">
               <folding />
             </state>
           </provider>
@@ -549,12 +492,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-31" y="22" width="1400" height="815" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32916668" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.67083335" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -669,13 +612,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/teachlab/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="45" selection-start="1008" selection-end="1008" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/teachlab/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="66" column="31" selection-start="1833" selection-end="1833" vertical-scroll-proportion="0.0" vertical-offset="735" max-vertical-offset="1980">
@@ -687,7 +623,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/lib/python2.7/site-packages/dj_database_url.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1350">
+        <state line="30" column="0" selection-start="738" selection-end="738" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1350">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/teachlab/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="57" selection-start="1020" selection-end="1020" vertical-scroll-proportion="0.375" vertical-offset="168" max-vertical-offset="600">
           <folding />
         </state>
       </provider>
