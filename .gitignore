@@ -1,3 +1,11 @@
 venv
 *.pyc
 staticfiles
+
+node_modules
+dist
+test/temp
+.sass-cache
+frontend/app/bower_components
+.tmp
+frontend/test/bower_components/
