@@ -5,7 +5,7 @@ frontend.Views = frontend.Views || {};
 (function () {
   frontend.Views.AppView = Backbone.View.extend({
 
-    template: JST['app/scripts/templates/profile.hbs'],
+    template: JST['app/scripts/templates/real_profile.hbs'],
 
     render: function(){
       this.$el.html(this.template());
