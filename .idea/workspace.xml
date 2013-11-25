@@ -2,6 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b963b32e-5d54-430c-986f-ccc31c964541" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/repository/static/repository/20th-Century-in-Poetry.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/repository/static/repository/literature1.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/repository/static/repository/literature2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/repository/static/repository/literature3.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/repository/static/repository/shakespeare.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repository/templates/repository/my_courses.html" afterPath="$PROJECT_DIR$/repository/templates/repository/my_courses.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/templates/accounts/real_profile.html" afterPath="$PROJECT_DIR$/accounts/templates/accounts/real_profile.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TeachLab.iws" />
@@ -46,7 +53,7 @@
       <file leaf-file-name="course_profile.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/repository/templates/repository/course_profile.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="117" column="10" selection-start="6606" selection-end="6606" vertical-scroll-proportion="-7.32" vertical-offset="1389" max-vertical-offset="2385">
+            <state line="117" column="10" selection-start="6606" selection-end="6606" vertical-scroll-proportion="-9.72" vertical-offset="1269" max-vertical-offset="2385">
               <folding />
             </state>
           </provider>
@@ -61,10 +68,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/teachlab/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="598" selection-end="598" vertical-scroll-proportion="0.35874438" vertical-offset="0" max-vertical-offset="669">
+            <state line="16" column="0" selection-start="598" selection-end="598" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
               <folding>
                 <element signature="e#0#51#0" expanded="true" />
               </folding>
@@ -72,10 +79,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/accounts/views.py">
+      <file leaf-file-name="my_courses.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/repository/templates/repository/my_courses.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="0" selection-start="1451" selection-end="1451" vertical-scroll-proportion="0.0" vertical-offset="273" max-vertical-offset="705">
+            <state line="155" column="96" selection-start="8398" selection-end="8398" vertical-scroll-proportion="0.00990099" vertical-offset="2319" max-vertical-offset="3120">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="real_profile.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/accounts/templates/accounts/real_profile.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="53" column="34" selection-start="3165" selection-end="3165" vertical-scroll-proportion="-0.74" vertical-offset="758" max-vertical-offset="2835">
               <folding />
             </state>
           </provider>
@@ -110,15 +126,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="teachlab.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/repository/static/repository/teachlab.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="17" selection-start="291" selection-end="291" vertical-scroll-proportion="0.0" vertical-offset="81" max-vertical-offset="750">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -139,8 +146,6 @@
       <list>
         <option value="$PROJECT_DIR$/accounts/templates/accounts/profile.html" />
         <option value="$PROJECT_DIR$/repository/templates/repository/document_profile.html" />
-        <option value="$PROJECT_DIR$/accounts/templates/accounts/real_profile.html" />
-        <option value="$PROJECT_DIR$/repository/templates/repository/my_courses.html" />
         <option value="$PROJECT_DIR$/teachlab/settings.py" />
         <option value="$PROJECT_DIR$/teachlab/wsgi.py" />
         <option value="$PROJECT_DIR$/accounts/views.py" />
@@ -153,12 +158,14 @@
         <option value="$PROJECT_DIR$/repository/urls.py" />
         <option value="$PROJECT_DIR$/repository/templates/repository/course_profile_alternate.html" />
         <option value="$PROJECT_DIR$/repository/templates/repository/course_profile.html" />
+        <option value="$PROJECT_DIR$/accounts/templates/accounts/real_profile.html" />
+        <option value="$PROJECT_DIR$/repository/templates/repository/my_courses.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-105" />
-    <option name="y" value="72" />
+    <option name="x" value="-80" />
+    <option name="y" value="22" />
     <option name="width" value="1400" />
     <option name="height" value="815" />
   </component>
@@ -491,7 +498,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-105" y="72" width="1400" height="815" extended-state="0" />
+    <frame x="-80" y="22" width="1400" height="815" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -525,22 +532,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/repository/templates/repository/my_courses.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="131" selection-start="1229" selection-end="1229" vertical-scroll-proportion="-8.583333" vertical-offset="154" max-vertical-offset="1920">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/teachlab/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="0" selection-start="2153" selection-end="2153" vertical-scroll-proportion="0.0" vertical-offset="810" max-vertical-offset="2040">
-          <folding>
-            <element signature="e#319#328#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/lib/python2.7/site-packages/dj_database_url.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="0" selection-start="738" selection-end="738" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1350">
@@ -627,19 +618,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/teachlab/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="598" selection-end="598" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/repository/templates/repository/course_profile.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="117" column="10" selection-start="6606" selection-end="6606" vertical-scroll-proportion="-7.32" vertical-offset="1389" max-vertical-offset="2385">
+        <state line="117" column="10" selection-start="6606" selection-end="6606" vertical-scroll-proportion="-9.72" vertical-offset="1269" max-vertical-offset="2385">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/teachlab/urls.py">
+    <entry file="file://$PROJECT_DIR$/accounts/templates/accounts/real_profile.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="598" selection-end="598" vertical-scroll-proportion="0.35874438" vertical-offset="0" max-vertical-offset="669">
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
+        <state line="53" column="34" selection-start="3165" selection-end="3165" vertical-scroll-proportion="-0.74" vertical-offset="758" max-vertical-offset="2835">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/repository/templates/repository/my_courses.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="155" column="96" selection-start="8398" selection-end="8398" vertical-scroll-proportion="0.00990099" vertical-offset="2319" max-vertical-offset="3120">
+          <folding />
         </state>
       </provider>
     </entry>
