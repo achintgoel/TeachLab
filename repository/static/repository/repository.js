@@ -8,5 +8,7 @@ function prepareDocument() {
 						e.preventDefault();
 						jQuery('#carousel_example_generic').carousel('prev');
 					});
+
+	 $('.course-document').annotator()
 }
 jQuery(document).ready(prepareDocument);

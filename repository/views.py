@@ -14,6 +14,9 @@ def my_courses(request):
 def course_profile(request):
     return render_to_response('repository/course_profile.html', locals(), context_instance=RequestContext(request))
 
+def course_profile_alternate(request):
+    return render_to_response('repository/course_profile_alternate.html', locals(), context_instance=RequestContext(request))
+
 def upload_file(request):
     if request.method == 'POST':
         form = UploadFileForm(request.POST, request.FILES)

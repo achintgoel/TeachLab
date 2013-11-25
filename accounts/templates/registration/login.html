@@ -1,47 +1,126 @@
-<html>
-{% load staticfiles %}
-<head>
-	    <title>{% block title %}My amazing site{% endblock %}</title>
-	    <link href="{% static "repository/bootstrap/css/bootstrap.min.css" %}" rel="stylesheet" media="screen">
-	    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
-	    <link href="{% static "repository/teachlab.css" %}" rel="stylesheet" media="screen">
-</head>
-<body>
+<!DOCTYPE html>
+<!-- saved from url=(0043)http://getbootstrap.com/examples/jumbotron/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+          {% load staticfiles %}
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="http://getbootstrap.com/docs-assets/ico/favicon.png">
+
+    <title>Teach Lab</title>
+    <link rel="stylesheet" href="{% static "repository/bootstrap/css/bootstrap.min.css" %}">
+        <link rel="stylesheet" href="{% static "repository/teachlab.css" %}">
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script type="text/javascript" src="{% static "repository/bootstrap/js/bootstrap.min.js" %}"></script>
+  </head>
+
+  <body class="login">
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+    					<a class="navbar-brand" href="#"><img src="{% static "repository/teachlab_logo.png" %}" width="100" height="20"></a>
+    					<ul class="nav navbar-nav">
+                             <li><a href="#">Help</a></li>
+    					</ul>
+    					<ul class="nav navbar-nav navbar-right">
+                            <li>
+                                <form class="navbar-form navbar-right">
+                                    <div class="form-group">
+                                        <div class="col-sm-6">
+                                            <input type="text" placeholder="Email" class="form-control">
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <input type="text" placeholder="Password" class="form-control">
+                                        </div>
+                                    </div>
+
+                                    <a href="{% url 'accounts:profile'%}" class="btn btn-success" role="button">Sign In</a>
+                                 </form>
+                            </li>
+    					</ul>
+		</div>
+
+
+
+
+
+    <div class="login-header">
+		<img src="{% static "repository/Slide1.png" %}">
+		<div class="login-details">
+			<div class="container">
+                <h1>Not a Member? Sign up for Free!</h1>
+                <p>Teacher Lab is the innovative way for teachers to get noticed in their community!</p>
+                <p><a class="btn btn-primary btn-lg" role="button">Learn more »</a></p>
+                <div class="col-md-7 col-md-offset-4">
+                  <h3>Please enter your info<h3>
+                </div>
+
+                <div class="col-md-8 col-md-offset-4">
+                    <form class="form-horizontal" role="form">
+                      <div class="form-group">
+                        <div class="col-sm-4">
+                          <input type="text" class="form-control" id="input_first_name" placeholder="First Name">
+                        </div>
+                        <div class="col-sm-4">
+                          <input type="text" class="form-control" id="input_last_name" placeholder="Last Name">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="col-sm-8">
+                          <input type="email" class="form-control" id="input_email" placeholder="Enter Email">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                          <div class="col-sm-8">
+                          <input type="text" class="form-control" id="input_password" placeholder="Enter Password">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="col-sm-4">
+                          <button type="submit" class="btn btn-primary">Sign in</button>
+                        </div>
+                      </div>
+                    </form>
+                </div>
+            </div>
+		</div>
+	</div>
+
     <div class="container">
-        <div class="form-signin">
-            <h2>Please sign in</h2>
-            {% if form.errors %}
-                <p>Your username and password didn't match!
-                    Please try again!</p>
-            {% endif %}
-
-            <form class="form-horizontal" role="form" method="post" action="{% url 'accounts:login' %}">
-                {% csrf_token %}
-                <div class="form-group">
-                    <div class="col-sm-12">
-                      <input type="text" class="form-control" id="login_username" placeholder="Username">
-                    </div>
-                </div>
-                <div class="form-group">
-                    <div class="col-sm-12">
-                      <input type="text" class="form-control" id="login_password" placeholder="Password">
-                    </div>
-                </div>
-                <p>
-                    <input class="btn btn-default" type="submit" value="Login" />
-                    <input type="hidden" name="next" value="{{ next }}" />
-                    <a class="btn btn-primary" role="button" href="{% url "socialauth_begin" "facebook" %}">Sign in through facebook!</a>
-                </p>
-                <p>
-                    or
-                    <a href="{% url 'accounts:register'%}">Create New User</a>
-                </p>
-            </form>
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Create</h2>
+          <p>Build a Profile, upload Course Curriculum, and Edit Projects</p>
+          <p><a class="btn btn-default" href="http://getbootstrap.com/examples/jumbotron/#" role="button">View details »</a></p>
         </div>
+        <div class="col-md-4">
+          <h2>Collaborate</h2>
+          <p>Follow, Footnote, and leave Feedback for your fellow Peers</p>
+          <p><a class="btn btn-default" href="http://getbootstrap.com/examples/jumbotron/#" role="button">View details »</a></p>
+       </div>
+        <div class="col-md-4">
+          <h2>Showcase</h2>
+          <p>Present and Publish your professional documents</p>
+          <p><a class="btn btn-default" href="http://getbootstrap.com/examples/jumbotron/#" role="button">View details »</a></p>
+        </div>
+      </div>
 
-    </div>
+      <hr>
+
+      <footer>
+        <p>© Company 2013</p>
+      </footer>
+    </div> <!-- /container -->
 
 
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./loginPage_files/jquery-1.10.2.min.js"></script>
+    <script src="./loginPage_files/bootstrap.min.js"></script>
+  
 
-</body>
-</html>
+</body></html>
