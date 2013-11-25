@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b963b32e-5d54-430c-986f-ccc31c964541" name="Default" comment="" />
+    <list default="true" id="b963b32e-5d54-430c-986f-ccc31c964541" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="TeachLab.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -62,7 +64,7 @@
       <file leaf-file-name="urls.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/teachlab/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="60" selection-start="398" selection-end="398" vertical-scroll-proportion="0.24663678" vertical-offset="0" max-vertical-offset="669">
+            <state line="16" column="0" selection-start="598" selection-end="598" vertical-scroll-proportion="0.35874438" vertical-offset="0" max-vertical-offset="669">
               <folding>
                 <element signature="e#0#51#0" expanded="true" />
               </folding>
@@ -634,7 +636,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/teachlab/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="60" selection-start="398" selection-end="398" vertical-scroll-proportion="0.24663678" vertical-offset="0" max-vertical-offset="669">
+        <state line="16" column="0" selection-start="598" selection-end="598" vertical-scroll-proportion="0.35874438" vertical-offset="0" max-vertical-offset="669">
           <folding>
             <element signature="e#0#51#0" expanded="true" />
           </folding>
